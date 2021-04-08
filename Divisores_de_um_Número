@@ -1,0 +1,10 @@
+<script>
+var a, resto, i
+a = parseInt(prompt("Digite um valor inteiro e positivo:"))
+resto = 0
+i = a 
+for (i = a; i >= 1; i--) {
+    resto = a % i
+    if (resto == 0) {
+        document.write(i + "\nÉ um divisor de\n" + a + "<br>") } }
+</script>
